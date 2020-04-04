@@ -17,7 +17,7 @@
 
 ## MLE(Maximum Likelihood Estimation)
 
-<img src="C:\Users\이현동\AppData\Roaming\Typora\typora-user-images\image-20200404221620517.png" alt="image-20200404221620517" style="zoom:80%;" />
+
 
 MLE(최대가능도 방법)
 
@@ -41,9 +41,6 @@ MLE(최대가능도 방법)
 - 반복 - 100번
   - class 1 k= 27 (observation 관측값)
 
-<img src="C:\Users\이현동\AppData\Roaming\Typora\typora-user-images\image-20200404230353561.png" alt="image-20200404230353561" style="zoom:80%;" />
-
-<img src="C:\Users\이현동\AppData\Roaming\Typora\typora-user-images\image-20200404230658985.png" alt="image-20200404230658985" style="zoom:80%;" />
 
 - Likelihood (가능도)  관측값(표본)에 대한 확률 부여
 
@@ -60,7 +57,6 @@ MLE같은 경우는 숙명적으로  overfitting이 따르게 된다.
 
 - O/X 혹은 0/1을 결정하는 binary
 
-<img src="C:\Users\이현동\AppData\Roaming\Typora\typora-user-images\image-20200404231732943.png" alt="image-20200404231732943" style="zoom:80%;" />
 
 dicision boundary 경계선이 아닌 주어진 데이터에 대해서 과도하게 fitting 되어버린 케이스, 상황을 **overfitting**이라고 한다.
 
@@ -77,7 +73,7 @@ dicision boundary 경계선이 아닌 주어진 데이터에 대해서 과도하
 
 Dev Set을 통해 Test Set에 대한 Overfitting 역시 검증하는 과정을 거친다.
 
-<img src="C:\Users\이현동\AppData\Roaming\Typora\typora-user-images\image-20200404232331957.png" alt="image-20200404232331957" style="zoom:80%;" />
+
 
 - epoch 선택
 
@@ -98,7 +94,6 @@ Dev Set을 통해 Test Set에 대한 Overfitting 역시 검증하는 과정을 �
 
 ### DNN
 
-<img src="C:\Users\이현동\AppData\Roaming\Typora\typora-user-images\image-20200404233014028.png" alt="image-20200404233014028" style="zoom:80%;" />
 
 - overfitting이 될 때까지
   - layer의 깊이와 넓이를 늘려줌
